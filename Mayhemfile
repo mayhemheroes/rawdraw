@@ -1,0 +1,5 @@
+project: rnshah9/rawdraw
+target: rawdraw
+
+cmds:
+  - cmd: /repo/tools/single_file_creator @@ binary_to_buffer.c
