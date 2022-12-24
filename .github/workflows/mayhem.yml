@@ -59,7 +59,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_CNFGGetTextExtents
+          - mayhem/Mayhemfile_single_file_creator
 
     steps:
       - uses: actions/checkout@v3

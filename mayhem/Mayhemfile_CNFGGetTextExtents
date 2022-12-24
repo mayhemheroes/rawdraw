@@ -1,0 +1,6 @@
+project: rawdraw
+target: cnfggettextextents
+
+cmds:
+  - cmd: /fuzz_CNFGGetTextExtents
+    libfuzzer: true
