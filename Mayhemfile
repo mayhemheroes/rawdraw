@@ -1,0 +1,5 @@
+project: rawdraw
+target: single-file-creator
+
+cmds:
+  - cmd: /single_file_creator @@ binary_to_buffer.c
